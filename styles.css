@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(115deg, #04000f, #09555c);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+body h1{
+    margin-top: 20px;
+    color: rgb(255, 251, 255);
+    font-size: xxx-large;
+    text-align: center;
+}
+.container{
+    width: 90%;
+    max-width: 470px;
+    background-color: azure;
+    color: rgb(6, 3, 0);
+    margin: 20px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+
+}
+
+.search-box input{
+    margin: 0 12px;
+    padding: 5px 5px;
+    border-radius: 8px;
+    border: 2px solid black;
+
+}
+.search-box button{
+    width: 40px;
+    height: 32px;
+    border-radius: 8px;
+    border: 2px solid black;
+
+}
+.weather-body{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.weather-body img{
+    width: 150px;
+    margin-top: 50px
+}
+.degree{
+    font-weight: 600;
+    font-size: larger   ;
+}
+
+.humidity {
+    margin: 10px 30px;
+    text-align: left;
+    display: flex;
+    gap: 10px;
+}
+.wind-speed {
+    margin: 10px 30px;
+    text-align: left;
+    display: flex;
+    gap: 10px;
+}
+.humidity img{
+    width: 30px;
+    height:35px;
+    margin-top: 0;
+}
+.wind-speed img{
+    width: 30px;
+    height:35px;
+    margin-top: 0;
+}
+.weather-things{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.loc-not-fnd img{
+    width: 150px;
+    margin-top: 50px
+    
+}
+.loc-not-fnd{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
